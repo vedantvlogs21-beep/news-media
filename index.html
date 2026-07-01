@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanosa Live | कानोसा लाईव्ह - Latest Marathi News & Live Updates</title>
+  <meta name="description"
+    content="Kanosa Live (कानोसा लाईव्ह) is your trusted destination for the latest Marathi news, live updates, and breaking stories from Maharashtra and beyond. Stay informed with our dedicated journalism.">
+  <meta name="keywords"
+    content="Kanosa Live, कानोसा लाईव्ह, Marathi News, Maharashtra News, Live News Marathi, Marathi News Portal, Latest Marathi Batmya, Varhad News">
+  <meta name="author" content="Kanosa Live">
+  <meta name="application-name" content="Kanosa Live">
+  <link rel="canonical" href="https://kanosa-live.vercel.app/" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <link rel="apple-touch-icon" href="/logo.svg" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:site_name" content="Kanosa Live">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kanosa-live.vercel.app/">
+  <meta property="og:title" content="Kanosa Live - Marathi News Portal">
+  <meta property="og:description"
+    content="Latest Marathi news, live updates, and breaking stories. Stay informed with Kanosa Live.">
+  <meta property="og:image" content="https://kanosa-live.vercel.app/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://kanosa-live.vercel.app/">
+  <meta property="twitter:title" content="Kanosa Live - Marathi News Portal">
+  <meta property="twitter:description"
+    content="Latest Marathi news, live updates, and breaking stories. Stay informed with Kanosa Live.">
+  <meta property="twitter:image" content="https://kanosa-live.vercel.app/og-image.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "Kanosa Live",
+      "alternateName": "कानोसा लाईव्ह",
+      "description": "Leading Marathi news portal providing live updates and breaking news from Maharashtra.",
+      "url": "https://kanosa-live.vercel.app/",
+      "logo": "https://kanosa-live.vercel.app/logo.svg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barshitakli",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://facebook.com/kanosalive",
+        "https://twitter.com/kanosalive"
+      ]
+    }
+    </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Mukta', sans-serif;
+    }
+
+    @keyframes ticker {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .ticker-animate {
+      display: inline-block;
+      white-space: nowrap;
+      animation: ticker 25s linear infinite;
+    }
+
+    .ticker-animate:hover {
+      animation-play-state: paused;
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
